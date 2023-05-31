@@ -18,6 +18,10 @@ nav {
 
 }
 
+li {
+    display: inline-block;
+}
+
 .nav-customers ul {
     list-style: none;
 }
@@ -25,6 +29,7 @@ nav {
 .nav-customers ul a {
     text-decoration: none;
     color: white;
+    padding: .3rem .3rem;
 }
 
 
