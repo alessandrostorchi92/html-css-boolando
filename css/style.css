@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+
+    background-color: #FF6800;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav-customers ul {
+    list-style: none;
+}
+
+.nav-customers ul a {
+    text-decoration: none;
+    color: white;
+}
+
+
