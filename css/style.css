@@ -11,9 +11,7 @@ html,body {
 nav {
 
     background-color: #FF6800;
-    position: fixed;
     width: 100%;
-    height: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,7 +31,8 @@ li {
 .nav-customers ul a {
     text-decoration: none;
     color: white;
-    padding: .3rem .3rem;
+    display: inline-block;
+    padding: 1rem 1rem;
 }
 
 .img-logo {
@@ -44,5 +43,34 @@ li {
 .nav-icons span {
     color: white;
 }
+
+.flex-container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.col {
+    flex-basis: 33.3%;
+    padding: .5rem 1rem;
+}
+
+.product-card {
+    background-color: grey ;
+    height: 450px;
+}
+
+.product-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 
