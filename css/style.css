@@ -91,5 +91,20 @@ h4 {
     text-decoration: line-through;
 }
 
+.block-img {
+    display: block;
+}
+
+.hover-img {
+    display: none;
+}
+
+.product-card:hover .block-img {
+    display: none;
+}
+
+.product-card:hover .hover-img {
+    display: block;
+}
 
 
