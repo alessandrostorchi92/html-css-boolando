@@ -62,6 +62,7 @@ li {
 }
 
 .product-card {
+    position: relative;
     background-color: grey ;
     height: 450px;
 }
@@ -107,4 +108,54 @@ h4 {
     display: block;
 }
 
+.cupon {
+    text-align: center;
+    width: 60px;
+    background-color: red;
+    color: white
+}
 
+.product-value {
+    color: white;
+    background-color: green;
+    width: 100px;
+    text-align: center;
+}
+
+.top-overlay {
+    position: absolute;
+}
+
+.top-overlay .cupon {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+
+.top-overlay .product-value {
+    position: absolute;
+    bottom: 20px;
+    left: 65px;
+}
+
+.top-overlay .sustainable-value {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    color: white;
+    background-color: green;
+    width: 100px;
+    text-align: center;
+}
+
+.product-card .icon-heart {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+
+}
